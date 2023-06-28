@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>千種キャンパスイベント紹介</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <header class="header-top" id="menu-button">
+                <img src="./img/logo-tikusa.png" alt="千種ロゴ">
+                <img src="./img/logo-menu.png" alt="メニューロゴ">
+        </header>         
+        <nav>
+          <div class="nav-box">
+            <a href="./index.html"><p>ホーム</p></a>
+            <a href="./campus.html"><p>キャンパス紹介</p></a>
+            <a href="./event.html"><p>イベント</p></a>
+            <a href="./staff.html"><p>講師・スタッフ</p></a>
+          </div>  
+          <div class="nav-box">
+            <a href="./access.html"><p>アクセス</p></a>
+            <a href="./contact.html"><p>お問い合わせ</p></a>
+            <a href="./index.html#news"><p>ニュース</p></a>
+            <a href="./index.html#link"><p>リンク</p></a>
+          </div>  
+        </nav>         
+      </header>
+      <!-- ヘッダー終了 -->
+
+      <!-- メイン -->
+    <main>
+        <div class="event-text">
+            <h2>イベント</h2>
+        </div>  
+        <div class="event-introduction">
+            <h3>イベント紹介</h3>
+            <!--横に線付ける-->
+            <p>現在、千種キャンパスでは様々なイベントを行っています。<br>
+               このページでは特に人気のイベントをご紹介します。</p>
+        </div>       
+            <div class="schooltrip">
+                <div class="trip-img">
+                    <img src="./img/event-tokyo.png" alt="修学旅行東京">
+                </div>    
+                <div class="trip-text">
+                    <h4>修学旅行</h4>
+                    <!--下に線付ける-->
+                    <p>3泊4日で、東京・大阪・北海道の中から旅行先を選択できます。<br>
+                    全国各地から参加者が集まるので、友達をたくさん作ることができます。<br>
+                    沢山のツアーの中から自分の行きたいツアーを選べるのでとても充実した旅行にすることができます！</p>
+                </div>    
+            </div>
+            <div class="campingschool">
+                <div class="camp-img">
+                    <img src="./img/event-rinkan.png" alt="林間学校">
+                </div>    
+                <div class="camp-text">
+                    <h4>林間学校</h4>
+                    <!--下に線付ける-->
+                    <p>毎年春に開催される大人気のイベントです。<br>
+                    3日間、愛知美浜少年自然の家で東海地区のキャンパスの生徒達と過ごします。<br>
+                    同じキャンパスだけでなく他キャンパスの生徒とも沢山話せるので、友達を作りたいと考えている方に特にオススメのイベントです！</p>
+                </div>    
+            </div>
+            <div class="sportsfestival">
+                <div class="festival-img">
+                    <img src="./img/event-festival.png" alt="体育祭">
+                </div>
+                <div class="festival-text">
+                    <h4>体育祭</h4>
+                    <!--下に線付ける-->
+                    <p>東海地区のキャンパス合同で開催される大規模なイベントです！<br>
+                        行う種目を生徒達で決めることができ、去年は投票が多かった玉入れ・借り物競争・ドッチボールなどを行いました。</p>
+                </div>    
+            </div>
+    </main>
+    <!-- メイン終了 -->
+
+    <!-- フッター -->
+    <footer>
+        <div class="menu"> 
+            <div class="menu-box">
+                <div class="footer-minirogo">
+                    <img src="./img/minirogokoutougauin.png" alt="千種ロゴミニ">
+                </div>
+                <div class="top-addres">
+                    <p>愛知県名古屋市千種区内山3丁目30-9<br>
+                    nonoha千種2F</p>
+                </div> 
+            </div>
+            <div class="menu-box">
+                <h4><a href="index.html">ホーム</a></h4>
+                <h4><a href="./campus.html">キャンパス紹介</a></h4>
+                <h4><a href="./event.html">イベント</a></h4>
+                <h4><a href="./staff.html">講師・スタッフ</a></h4>
+            </div>
+            <div class="menu-box">         
+                <h4><a href="./access.html">アクセス</a></h4>
+                <h4><a href="./contact.html">お問い合わせ</a></h4>
+                <h4><a href="./index.html#news">ニュース</a></h4>
+                <h4><a href="./index.html#link">リンク</a></h4> 
+            </div>   
+       </div>    
+    </footer>
+       <!-- フッター終了 -->
+
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script>
+      $(function(){
+        $('#menu-button').click(function(){
+          $('nav').toggleClass('menu-on');
+        })
+      })
+    
+    </script>
+</body>
+</html>

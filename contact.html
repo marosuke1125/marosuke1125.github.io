@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問い合わせ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <header class="header-top" id="menu-button">
+                <img src="./img/logo-tikusa.png" alt="千種ロゴ">
+                <img src="./img/logo-menu.png" alt="メニューロゴ">
+        </header>         
+        <nav>
+          <div class="nav-box">
+            <a href="./index.html"><p>ホーム</p></a>
+            <a href="./campus.html"><p>キャンパス紹介</p></a>
+            <a href="./event.html"><p>イベント</p></a>
+            <a href="./staff.html"><p>講師・スタッフ</p></a>
+          </div>  
+          <div class="nav-box">
+            <a href="./access.html"><p>アクセス</p></a>
+            <a href="./contact.html"><p>お問い合わせ</p></a>
+            <a href="./index.html#news"><p>ニュース</p></a>
+            <a href="./index.html#link"><p>リンク</p></a>
+          </div>  
+        </nav>         
+      </header>
+    <main>
+        <div class="contact">
+            <div class="contact-text">
+                <h3>お問い合わせ</h3>
+            </div>    
+            <!--下に線付ける-->
+            <div class="tel">
+                <div class="tel-text">
+                    <h4>お電話でのお問い合わせ</h4>
+                </div>    
+                <!--横線つける-->
+                <div class="tel-bigbox">
+                    <div class="telphonenumber">
+                            <p>tel</p>
+                            <h6>0120-919-439</h6>
+                    </div>
+                    <div class="tel-box">
+                        <div class="receptiontime">
+                            <p>土日祝可</p>
+                            <p>受付時間9:00～22:00</p>
+                        </div>    
+                        <p>ご質問やご相談などお気軽にお問い合わせください。</p>
+                    </div>    
+                </div>    
+            </div>
+            <div class="other">
+                <div class="other-text">
+                    <h4>その他のお問い合わせ</h4>
+                </div>
+                <!--横に線付ける-->  
+                <div class="other-bigbox">
+                    <div class="opencampus">
+                        <div class="other-box">
+                            <h5>オープンキャンパスのご案内</h5>
+                            <!--下に線付ける-->
+                            <p>
+                                学校説明会・先輩の体験談・個別相談の３部構成で行っております。<br>
+                                参加費無料です。お申込みお待ちしております！
+                            </p>
+                            <div class="apply-opencampus">
+                                <a href="https://www.try-gakuin.com/reserve/?event_type=2">
+                                    <h2>お申込みはこちらから</h2>
+                                </a>
+                            </div>    
+                        </div>
+                    </div>
+                    <div class="documentrequest">
+                        <div class="other-box">
+                            <h5>資料請求のご案内</h5>
+                            <!--下に線入れる-->
+                            <p>
+                                ご家族で相談されたい方などに無料で資料をお送りしております。<br>
+                                オンライン相談会も実施しております。
+                            </p>
+                                <div class="apply-documentrequest">
+                                    <a href="https://www.try-gakuin.com/toiawase/">
+                                        <h2>資料請求はこちらから</h2>
+                                    </a>
+                                </div>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+            <div class="menu"> 
+                <div class="menu-box">
+                    <div class="footer-minirogo">
+                        <img src="./img/minirogokoutougauin.png" alt="千種ロゴミニ">
+                    </div>
+                    <div class="top-addres">
+                        <p>愛知県名古屋市千種区内山3丁目30-9<br>
+                        nonoha千種2F</p>
+                    </div> 
+                </div>
+                <div class="menu-box">
+                    <h4><a href="index.html">ホーム</a></h4>
+                    <h4><a href="./campus.html">キャンパス紹介</a></h4>
+                    <h4><a href="./event.html">イベント</a></h4>
+                    <h4><a href="./staff.html">講師・スタッフ</a></h4>
+                </div>
+                <div class="menu-box">         
+                    <h4><a href="./access.html">アクセス</a></h4>
+                    <h4><a href="./contact.html">お問い合わせ</a></h4>
+                    <h4><a href="./index.html#news">ニュース</a></h4>
+                    <h4><a href="./index.html#link">リンク</a></h4> 
+                </div>   
+            </div>    
+    </footer>
+    <!-- フッター -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+          $('#menu-button').click(function(){
+            $('nav').toggleClass('menu-on');
+          })
+        })
+      
+      </script>
+</body>
+</html>

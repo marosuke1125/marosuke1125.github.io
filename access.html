@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アクセス</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <header class="header-top" id="menu-button">
+                <img src="./img/logo-tikusa.png" alt="千種ロゴ">
+                <img src="./img/logo-menu.png" alt="メニューロゴ">
+        </header>         
+        <nav>
+          <div class="nav-box">
+            <a href="./index.html"><p>ホーム</p></a>
+            <a href="./campus.html"><p>キャンパス紹介</p></a>
+            <a href="./event.html"><p>イベント</p></a>
+            <a href="./staff.html"><p>講師・スタッフ</p></a>
+          </div>  
+          <div class="nav-box">
+            <a href="./access.html"><p>アクセス</p></a>
+            <a href="./contact.html"><p>お問い合わせ</p></a>
+            <a href="./index.html#news"><p>ニュース</p></a>
+            <a href="./index.html#link"><p>リンク</p></a>
+          </div>  
+        </nav>         
+      </header>
+      <!-- ヘッダー終了 -->
+
+      <!-- メイン -->
+    <main>
+       <div class="access">
+            <div class="access-text">
+                <h3>アクセス</h3>
+            </div>    
+            <!--下に線付ける-->
+            <div class="map-location">
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3261.465827021937!2d136.9319981746734!3d35.169940557893035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x600370f30305550d%3A0x8b4133130fa68b7e!2z44OI44Op44Kk5byP6auY562J5a2m6ZmiIOWNg-eoruOCreODo-ODs-ODkeOCuQ!5e0!3m2!1sja!2sjp!4v1686071796171!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="locaion-info">
+                    <div class="address">
+                        <p>
+                            〒464-0075<br>
+                            愛知県名古屋市千種区内山3丁目30-9<br>
+                            nonoha千種2F<br>
+                        </p>
+                    </div>    
+                    <div class="way">
+                        <p>
+                        &#9679;JR各線・名古屋市営東山線「千種駅」<br>
+                        地下４番出口より徒歩約５分
+                        </p>
+                        <p>
+                        &#9679;名古屋市営東山線・桜通線「今池駅」<br>
+                        １２番出口より徒歩約４分
+                        </p>
+                    </div>
+                </div>
+            </div>  
+       </div>       
+    </main>
+    <!-- メイン終了 -->
+
+    <!-- フッター -->
+    <footer>
+        <div class="menu"> 
+            <div class="menu-box">
+                <div class="footer-minirogo">
+                <img src="./img/minirogokoutougauin.png" alt="千種ロゴミニ">
+                </div>
+                <div class="top-addres">
+                    <p>愛知県名古屋市千種区内山3丁目30-9<br>
+                    nonoha千種2F</p>
+                </div> 
+            </div>
+            <div class="menu-box">
+                <h4><a href="index.html">ホーム</a></h4>
+                <h4><a href="./campus.html">キャンパス紹介</a></h4>
+                <h4><a href="./event.html">イベント</a></h4>
+                <h4><a href="./staff.html">講師・スタッフ</a></h4>
+            </div>
+            <div class="menu-box">         
+                <h4><a href="./access.html">アクセス</a></h4>
+                <h4><a href="./contact.html">お問い合わせ</a></h4>
+                <h4><a href="./index.html#news">ニュース</a></h4>
+                <h4><a href="./index.html#link">リンク</a></h4> 
+            </div>   
+        </div>    
+    </footer>
+       <!-- フッター終了 -->
+
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+
+    <script>
+        $(function(){
+          $('#menu-button').click(function(){
+            $('nav').toggleClass('menu-on');
+          })
+        })
+      
+    </script>
+</body>
+</html>
